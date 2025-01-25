@@ -1,0 +1,134 @@
+(footprint "537-24AB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "HW***"
+		(at 29 -21.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46a84059-3063-4028-9b22-768edb457e0c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "Heat_Sink"
+		(at 29.2 -17.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de9a0ae-1a45-4a42-8e2b-640e9a7c6e53")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f20ced-690d-4cb1-b56c-a717be1c915f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://wakefieldthermal.com/content/data_sheets/DC%20to%20DC%20Converter%20Heat%20Sink.pdf"
+		(at 30.25 -11.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3441f31f-3bc3-47a0-a182-9e8481c90203")
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+	)
+	(property "Description" "HEATSINK DC/DC QUARTER BRICK,  96439A480 (MMC) pem nut used"
+		(at 29.5 -14.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d17327a2-2d32-4498-9e92-b6caf550774e")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(clearance 1.1)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -37)
+		(end 58 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "881e9a4d-58f7-474a-9056-fb47c92dea57")
+	)
+	(fp_text user "REF**"
+		(at 0 -37.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "71ed9164-ebb7-4659-91f3-19f01e01ec34")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5.38 -31.58)
+		(size 4.15 4.15)
+		(drill 4.15)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0820e58c-2b39-41c4-b4a0-765922b67e14")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.38 -5.4)
+		(size 4.15 4.15)
+		(drill 4.15)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7bcf284b-ecb3-4dfa-ad54-dd4bfaa222bd")
+	)
+	(pad "" np_thru_hole circle
+		(at 52.68 -31.58)
+		(size 4.15 4.15)
+		(drill 4.15)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "86498225-4fbd-4871-a392-67065557b561")
+	)
+	(pad "1" thru_hole circle
+		(at 52.68 -5.4)
+		(size 8 8)
+		(drill 4.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.1)
+		(uuid "4787f840-2d1e-4586-9343-df2581f41fd6")
+	)
+	(model "${RSX_3D_LIB}/rsx_misc.3dshapes/537-24AB.stp"
+		(offset
+			(xyz 29 18.5 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

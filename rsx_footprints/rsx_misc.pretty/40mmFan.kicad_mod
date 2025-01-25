@@ -1,0 +1,109 @@
+(footprint "40mmFan"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "HW***"
+		(at 17.78 -6.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46a84059-3063-4028-9b22-768edb457e0c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "Fan"
+		(at 17.98 -2.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de9a0ae-1a45-4a42-8e2b-640e9a7c6e53")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f20ced-690d-4cb1-b56c-a717be1c915f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 24.535 -9.21 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3441f31f-3bc3-47a0-a182-9e8481c90203")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 23.785 -12.26 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d17327a2-2d32-4498-9e92-b6caf550774e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "REF**"
+		(at 17.272 -9.144 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "71ed9164-ebb7-4659-91f3-19f01e01ec34")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -16 0)
+		(size 8 8)
+		(layers "B.Cu" "B.Mask")
+		(clearance 0.07)
+		(uuid "8ac560d1-b50b-4907-89e0-b72b7acb1c4c")
+	)
+	(pad "1" smd rect
+		(at 16 0)
+		(size 8 8)
+		(layers "B.Cu" "B.Mask")
+		(clearance 0.07)
+		(uuid "c16cb92d-4d5b-4c10-b6b8-48f936604f0c")
+	)
+	(model "${RSX_3D_LIB}/rsx_misc.3dshapes/40X40X20.step"
+		(offset
+			(xyz 0 15.5 20)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 90)
+		)
+	)
+)

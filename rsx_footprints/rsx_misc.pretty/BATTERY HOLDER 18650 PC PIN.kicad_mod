@@ -1,0 +1,166 @@
+(footprint "BATTERY HOLDER 18650 PC PIN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ce860d2f-0085-48e2-a6e4-c6a8881c7d12")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BATTERY HOLDER 18650 PC PIN"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2194badc-90a8-4cc3-b470-760036914d4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "039ba316-1ff1-4691-be94-9411cb28f01f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "728be3fe-c56d-41cf-90a0-95b9968a0e8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1745c53e-d48b-4dbf-8c4e-dfe09d7da653")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -39 -11)
+		(end 39 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "764cbafd-815b-42e3-a07b-9852e80b6173")
+	)
+	(fp_text user "-"
+		(at -30 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f234120-3fdc-46e5-9bfa-d9e56a99d140")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 24.5 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d6ffd9dc-dcc4-40d4-8b25-b95d30d835e7")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c412da8-7b49-4a10-9f2a-87de1a3678ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -27.6 8)
+		(size 3.45 3.45)
+		(drill 3.45)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8b2fad88-4f3c-40df-856c-85133980f35a")
+	)
+	(pad "" np_thru_hole circle
+		(at 27.6 -8)
+		(size 3.45 3.45)
+		(drill 3.45)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e97d298d-afa8-42d7-b90c-5669a5bf7609")
+	)
+	(pad "" np_thru_hole circle
+		(at 35.8 8)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e13d0e1a-f194-4e48-8d0f-f76ebd6fabd8")
+	)
+	(pad "1" thru_hole circle
+		(at -35.8 0)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f47de8fe-ee6b-4c2b-b845-c81492b363c4")
+	)
+	(pad "2" thru_hole circle
+		(at 35.8 0)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0ce49ae-7564-4b14-a524-6293d8802fde")
+	)
+	(model "${RSX_3D_LIB}/rsx_misc.3dshapes/1043P.step"
+		(offset
+			(xyz 2.7 -8.5 10.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

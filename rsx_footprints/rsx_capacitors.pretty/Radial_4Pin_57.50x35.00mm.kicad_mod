@@ -1,0 +1,165 @@
+(footprint "Radial_4Pin_57.50x35.00mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP FILM RDL 4 LEAD")
+	(tags "C Rect series Radial pin pitch 52.50mm  length 57.5mm width 35mm Capacitor")
+	(property "Reference" "REF**"
+		(at -6.75 -11.5 0)
+		(layer "F.SilkS")
+		(uuid "7347f7ab-5c6d-44bb-be6e-85e29c139b98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Radial_4Pin_57.50x35.00mm"
+		(at 26.25 3.75 0)
+		(layer "F.Fab")
+		(uuid "3fd55f72-cc26-425e-862d-398620061972")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5940a7e9-0469-4130-bd39-0eae8c5ed1e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0232bf78-5d84-4ccd-9198-bd56a57bbea5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "562e9831-94e3-4393-aed6-8b02d8dbe939")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3 -28.3)
+		(end 55.5 8)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6d74eb55-2d8f-4df3-85d9-4c61d5656892")
+	)
+	(fp_rect
+		(start -3.25 -28.5)
+		(end 55.75 8.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f1c625fa-8b2a-4f68-ae5f-51367a26aad0")
+	)
+	(fp_rect
+		(start -2.5 -27.820447)
+		(end 55.005341 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "77f48d8a-755d-4927-8324-ca72b019085d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 26 -19.25 0)
+		(layer "F.Fab")
+		(uuid "c0808131-3f77-460e-bfd5-27ad31dd60e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 26 -1.45 0)
+		(layer "F.Fab")
+		(uuid "dc0b0e46-3b8c-4c25-938c-90d4c38f29b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -20.3)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47d83fb2-6546-4a59-b34d-17714b7e4767")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd76f199-4df4-495f-ba95-b2f2a5f88a95")
+	)
+	(pad "2" thru_hole circle
+		(at 52.5 -20.3)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "107c7f1d-e6c7-4446-9d5a-8554694688bd")
+	)
+	(pad "2" thru_hole circle
+		(at 52.5 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "abc05b00-1fa2-41a8-8c28-03f67521d144")
+	)
+	(model "${RSX_3D_LIB}/rsx_capacitor.3dshapes/B32778Z4117K000.STEP"
+		(offset
+			(xyz -2.6 -7.32 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

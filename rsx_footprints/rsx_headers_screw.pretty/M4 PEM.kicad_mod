@@ -1,0 +1,163 @@
+(footprint "M4 PEM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.588 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "e357a0b9-3734-4f5e-ae62-baeec73dc33b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "M4 PEM"
+		(at 0.1 9.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80ed1bbd-c118-48f9-8ecd-522f1e4f5aa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1501cfe-b8c7-44c8-b14d-aa7e09cb2f61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de9a586b-1642-422d-82aa-d699832ae08f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed4e3160-a851-4b10-a872-77ff4718f1db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 10.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "79e4a0e2-8389-41b1-8250-9f98d77d176c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.556 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "491a3925-b890-453b-bbc8-be8747bf1248")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 -2.54)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6797484b-40c2-4933-838d-f060b4f02ae6")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 2.54)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eede8723-effa-423f-abf6-a4334b9573e5")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.556)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "784a7ec3-44bc-4b3c-9049-c91b9f5e49fc")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 10 10)
+		(drill 5.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8fc05a75-5dc3-4425-abf4-7f16a523ba9e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 3.556)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "722bd0e8-e95c-481c-b842-17842514cfa9")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4652c245-6f42-4ae4-8575-b0b625737994")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 2.54)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "463415eb-be6b-40f6-a426-d0811dc85d7b")
+	)
+	(pad "1" thru_hole circle
+		(at 3.556 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b50a74e4-142c-4ace-9015-0b33ae28b6c1")
+	)
+	(model "${RSX_3D_LIB}/My_Hardware.3dshapes/96439A650_18-8 Stainless Steel Press-Fit Nut for Sheet Metal.STEP"
+		(offset
+			(xyz 0 0 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

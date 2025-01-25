@@ -1,0 +1,138 @@
+(footprint "CPRX3231L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CPRX3231L Series of high current inductors")
+	(tags "Inductor, TH, High current ")
+	(property "Reference" "REF**"
+		(at 0 -18.4 0)
+		(layer "F.SilkS")
+		(uuid "11950450-9805-4844-b9e8-19ce6f4d4d7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CPRX3231L"
+		(at 0.265 9.38 0)
+		(layer "F.Fab")
+		(uuid "98625624-7789-48ac-939c-9cf0cd8af5c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -3.545 6.415 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcec4431-fe21-4439-9621-c0c59c9da2b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.545 6.415 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "400ca4d2-8341-4fb9-9a12-ba8be8088493")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e10808a7-fb00-46bd-85a6-ed25a96bb107")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -16 -16)
+		(end 16 16)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9fd051da-0df0-4049-924b-d67d5788574c")
+	)
+	(fp_rect
+		(start -16.5 -16.5)
+		(end 16.5 16.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "94ede9f8-8ac9-4c88-bd61-c4964f4c59ac")
+	)
+	(fp_rect
+		(start -15.5 -15.5)
+		(end 15.5 15.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bc1b333c-03bd-4efe-b0cb-91d4243be8f4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.265 6.415 0)
+		(layer "F.Fab")
+		(uuid "0bdd0ecc-ee60-433a-ad11-fd94561f2f3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -10.1 10)
+		(size 6 10)
+		(drill oval 3.5 7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79b8d17b-4456-4fde-99eb-aad7a8febec2")
+	)
+	(pad "2" thru_hole rect
+		(at 10.1 -10)
+		(size 6 10)
+		(drill oval 3.5 7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36a1b988-d727-4d6c-a027-f94f44e639e9")
+	)
+	(model "${RSX_3D_LIB}/rsx_inductors.3dshapes/CPRX3231L.STEP"
+		(offset
+			(xyz -16 -16 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

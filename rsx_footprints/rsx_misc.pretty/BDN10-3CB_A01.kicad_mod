@@ -1,0 +1,92 @@
+(footprint "BDN10-3CB_A01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "HW***"
+		(at 13 -15.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46a84059-3063-4028-9b22-768edb457e0c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "Heat_Sink"
+		(at 13.2 -11.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de9a0ae-1a45-4a42-8e2b-640e9a7c6e53")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f20ced-690d-4cb1-b56c-a717be1c915f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3441f31f-3bc3-47a0-a182-9e8481c90203")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d17327a2-2d32-4498-9e92-b6caf550774e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -25.65)
+		(end 25.65 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "881e9a4d-58f7-474a-9056-fb47c92dea57")
+	)
+	(fp_text user "REF**"
+		(at 0.8 -24 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "71ed9164-ebb7-4659-91f3-19f01e01ec34")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+)
