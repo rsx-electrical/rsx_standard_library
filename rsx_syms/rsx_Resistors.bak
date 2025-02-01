@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -174,7 +174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_1206_3216Metric"
+		(property "Footprint" "rsx_resistors:R_1206_3216Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -315,15 +315,15 @@
 			)
 		)
 		(property "Value" "0R100 2W"
-			(at 0 0 90)
+			(at -4.318 1.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_2512_6332Metric"
-			(at -1.778 0 90)
+		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
+			(at -8.636 0.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +341,7 @@
 			)
 		)
 		(property "Description" "RES 0.1 OHM 1% 2W 2512"
-			(at 0 0 0)
+			(at 16.51 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,7 +350,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 0 0 0)
+			(at 15.748 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,7 +359,7 @@
 			)
 		)
 		(property "DPN" "CSRN2512FTR100CT-ND"
-			(at 0 0 0)
+			(at 15.748 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +368,7 @@
 			)
 		)
 		(property "MPN" "CSRN2512FTR100"
-			(at 0 0 0)
+			(at 12.446 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:TO-263-2_TabPin1Dpak"
+		(property "Footprint" "rsx_packages_TO_SOT:TO-263-2_TabPin1Dpak"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -618,7 +618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -766,7 +766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -914,7 +914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1062,7 +1062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1210,7 +1210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_2512_6332Metric"
+		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1358,7 +1358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1506,7 +1506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1654,7 +1654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1802,7 +1802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1950,7 +1950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2098,7 +2098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2246,7 +2246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 1% 1/10W 0603"
-			(at 0 0 0)
+			(at 2.54 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2518,6 +2518,154 @@
 			)
 		)
 	)
+	(symbol "1K8"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K8"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1.8K OHM 5% 1/10W 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603JT1K80CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603JT1K80"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1K8_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1K8_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "1M"
 		(pin_numbers hide)
 		(pin_names
@@ -2542,7 +2690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2690,7 +2838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2838,7 +2986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_2512_6332Metric"
+		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2986,7 +3134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_2512_6332Metric"
+		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3134,7 +3282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_2512_6332Metric"
+		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3282,7 +3430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3430,7 +3578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3578,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3726,7 +3874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3874,8 +4022,8 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
-			(at -1.778 0 90)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at -1.778 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4170,7 +4318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4318,7 +4466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4442,6 +4590,154 @@
 			)
 		)
 	)
+	(symbol "47k"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 47K OHM 1% 1/10W 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "311-47.0KHRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "47k_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "47k_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "499K"
 		(pin_numbers hide)
 		(pin_names
@@ -4466,7 +4762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4614,7 +4910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_2512_6332Metric"
+		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4762,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4910,7 +5206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5058,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5204,7 +5500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_Array_SIP5"
+		(property "Footprint" "rsx_resistors:R_Array_SIP5"
 			(at 6.985 0 90)
 			(effects
 				(font
@@ -5567,7 +5863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:R_0603_1608Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5691,6 +5987,154 @@
 			)
 		)
 	)
+	(symbol "7K5"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7K5"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 7.5K OHM 1% 1/10W 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "311-7.50KHRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-077K5L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "7K5_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "7K5_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "8X10K"
 		(pin_names
 			(offset 1.016)
@@ -5714,7 +6158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:745C101103JP"
+		(property "Footprint" "rsx_resistors:745C101103JP"
 			(at -10.16 11.43 0)
 			(effects
 				(font
@@ -6346,6 +6790,154 @@
 			)
 		)
 	)
+	(symbol "9K1"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9K1"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 9.1K OHM 1% 1/10W 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "311-9.10KHRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-079K1L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "9K1_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "9K1_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "POT10K"
 		(pin_names
 			(offset 1.016) hide)
@@ -6368,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "rsx_resistors:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6556,7 +7148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:Potentiometer_Bourns_3296W_Vertical_DL"
+		(property "Footprint" "rsx_resistors:Potentiometer_Bourns_3296W_Vertical_DL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6744,7 +7336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_resistors:Potentiometer_Bourns_3296W_Vertical_DL"
+		(property "Footprint" "rsx_resistors:Potentiometer_Bourns_3296W_Vertical_DL"
 			(at 0 0 0)
 			(effects
 				(font
