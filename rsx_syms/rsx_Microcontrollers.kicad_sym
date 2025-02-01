@@ -6818,7 +6818,23 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "MFR" "STMicroelectronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "497-18103-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STM32F730R8T6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6846,8 +6862,8 @@
 		)
 		(symbol "STM32F767ZITx_0_1"
 			(rectangle
-				(start -25.4 -86.36)
-				(end 25.4 88.9)
+				(start -25.4 88.9)
+				(end 25.4 -86.36)
 				(stroke
 					(width 0.254)
 					(type default)
