@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62,15 +62,6 @@
 			)
 		)
 		(property "DPN" "ATTINY402-SSFRCT-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC MCU 8BIT 4KB FLASH 8SOIC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -289,7 +280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:SSOP-28_5.3x10.2mm_P0.65mm_DL"
+		(property "Footprint" "rsx_packages_SO:SSOP-28_5.3x10.2mm_P0.65mm_DL"
 			(at 1.905 0 0)
 			(effects
 				(font
@@ -326,15 +317,6 @@
 			)
 		)
 		(property "DPN" "PIC16LF19156-I/SS-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC MCU 8BIT 28KB FLASH 28SSOP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -895,7 +877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_QFP:TQFP-80_12x12mm_P0.5mm_DL"
+		(property "Footprint" "rsx_packages_QFP:TQFP-80_12x12mm_P0.5mm_DL"
 			(at 0 58.42 0)
 			(effects
 				(font
@@ -932,15 +914,6 @@
 		)
 		(property "DPN" "150-PIC24FJ256GL408-I/PT-ND"
 			(at -12.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC MCU 16BIT 256KB FLASH 80TQFP"
-			(at -5.08 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_QFP:TQFP-80_12x12mm_P0.5mm_DL"
+		(property "Footprint" "rsx_packages_QFP:TQFP-80_12x12mm_P0.5mm_DL"
 			(at 0 58.42 0)
 			(effects
 				(font
@@ -2523,15 +2496,6 @@
 		)
 		(property "DPN" "150-PIC24FJ512GL408-I/PT-ND"
 			(at -12.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC MCU 16BIT 128KB FLASH 80TQFP"
-			(at -5.08 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
+		(property "Footprint" "rsx_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
 			(at 35.56 -2.54 0)
 			(effects
 				(font
@@ -4111,15 +4075,6 @@
 			)
 		)
 		(property "DPN" "497-11177-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC MCU 32BIT 1MB FLASH 144LQFP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6833,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
+		(property "Footprint" "rsx_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
 			(at 7.62 49.53 0)
 			(effects
 				(font
@@ -6871,15 +6826,6 @@
 		)
 		(property "DPN" "497-STM32G0B1VET6-ND"
 			(at 12.7 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC MCU 32BIT 512KB FLASH 100LQFP"
-			(at 6.35 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
+		(property "Footprint" "rsx_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
 			(at 6.35 52.07 0)
 			(effects
 				(font
@@ -8838,15 +8784,6 @@
 		)
 		(property "DPN" "497-STM32H562VGT6-ND"
 			(at 11.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "ARM® Cortex®-M33 STM32H5 Microcontroller IC 32-Bit 250MHz 1MB (1M x 8) FLASH 100-LQFP (14x14)"
-			(at 5.08 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +10704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
+		(property "Footprint" "rsx_packages_QFP:LQFP-100_14x14mm_P0.5mm_DL"
 			(at 6.35 52.07 0)
 			(effects
 				(font
@@ -10805,15 +10742,6 @@
 		)
 		(property "DPN" "497-STM32H563VGT6-ND"
 			(at 11.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "ARM® Cortex®-M33 STM32H5 Microcontroller IC 32-Bit 250MHz 1MB (1M x 8) FLASH 100-LQFP (14x14)"
-			(at 5.08 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
