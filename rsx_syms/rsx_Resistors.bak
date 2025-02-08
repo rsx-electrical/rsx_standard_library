@@ -3998,152 +3998,6 @@
 			)
 		)
 	)
-	(symbol "30K"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 2.032 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39K"
-			(at 0 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 39K OHM 5% 1/10W 0603"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603JT39K0CT-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603JT39K0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "R res resistor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "R_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "30K_1_1"
-			(rectangle
-				(start -1.016 2.54)
-				(end 1.016 -2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "330R"
 		(pin_numbers hide)
 		(pin_names
@@ -4473,7 +4327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4482,7 +4336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 30K OHM 1% 1/10W 0603"
+		(property "Description" "RES 39K OHM 5% 1/10W 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4500,7 +4354,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT30K0CT-ND"
+		(property "DPN" "RMCF0603JT39K0CT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4509,7 +4363,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT30K0"
+		(property "MPN" "RMCF0603JT39K0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4536,10 +4390,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "39K_0_1"
+		(symbol "39K_1_1"
 			(rectangle
-				(start -1.016 -2.54)
-				(end 1.016 2.54)
+				(start -1.016 2.54)
+				(end 1.016 -2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4548,8 +4402,6 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "39K_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
