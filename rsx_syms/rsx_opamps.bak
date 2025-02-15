@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
 			(at 17.78 13.97 0)
 			(effects
 				(font
@@ -555,7 +555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
 			(at 17.78 13.97 0)
 			(effects
 				(font
@@ -834,7 +834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23-6_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23-6_DL"
 			(at 1.27 1.27 0)
 			(effects
 				(font
@@ -1056,7 +1056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23-6_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23-6_DL"
 			(at 1.27 1.27 0)
 			(effects
 				(font
@@ -1511,6 +1511,259 @@
 			)
 		)
 	)
+	(symbol "INA597IDR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 5.08 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA597IDR"
+			(at 8.89 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina597.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC OPAMP DIFF 1 CIRCUIT 8SOIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "296-INA597IDRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "INA597IDR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Thermocouple Amp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MSOP*8*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "INA597IDR_0_1"
+			(polyline
+				(pts
+					(xy -7.62 7.62) (xy 7.62 0) (xy -7.62 -7.62) (xy -7.62 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "INA597IDR_1_1"
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "-IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -7.62 90)
+				(length 5.08)
+				(name "REF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 2.54)
+				(name "-Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -5.08 0 180)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "SENSE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "+Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LMV321A"
 		(pin_names
 			(offset 0.127)
@@ -1536,7 +1789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23-5"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23-5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1660,10 +1913,10 @@
 			)
 		)
 		(symbol "LMV321A_1_1"
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1679,9 +1932,9 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1696,10 +1949,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1741,7 +1994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:TSSOP-14_4.4x5mm_P0.65mm_DL"
+		(property "Footprint" "rsx_packages_SO:TSSOP-14_4.4x5mm_P0.65mm_DL"
 			(at -1.27 2.54 0)
 			(effects
 				(font
@@ -2157,7 +2410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:TSSOP-8_4.4x3mm_P0.65mm_DL"
+		(property "Footprint" "rsx_packages_SO:TSSOP-8_4.4x3mm_P0.65mm_DL"
 			(at -7.62 16.51 0)
 			(effects
 				(font
@@ -2437,7 +2690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:TSSOP-14_4.4x5mm_P0.65mm_DL"
+		(property "Footprint" "rsx_packages_SO:TSSOP-14_4.4x5mm_P0.65mm_DL"
 			(at -1.27 2.54 0)
 			(effects
 				(font
@@ -2848,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23-5"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23-5"
 			(at -1.27 -24.13 0)
 			(effects
 				(font
@@ -3034,7 +3287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_DFN_QFN:DFN-22_DJC_LIT"
+		(property "Footprint" "rsx_packages_DFN_QFN:DFN-22_DJC_LIT"
 			(at -17.78 17.78 0)
 			(effects
 				(font
