@@ -103,7 +103,7 @@
 		(symbol "2N7002K_0_1"
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0) (xy 3.048 0)
 				)
 				(stroke
 					(width 0)
