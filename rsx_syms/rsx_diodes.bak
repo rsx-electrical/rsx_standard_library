@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SMA"
+		(property "Footprint" "rsx_diodes:D_SMA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -206,7 +206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SOD-123F"
+		(property "Footprint" "rsx_diodes:D_SOD-123F"
 			(at 0 0 0)
 			(effects
 				(font
@@ -387,7 +387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SOD-323"
+		(property "Footprint" "rsx_diodes:D_SOD-323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -559,7 +559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SMA"
+		(property "Footprint" "rsx_diodes:D_SMA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -740,7 +740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SOD-323"
+		(property "Footprint" "rsx_diodes:D_SOD-323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -912,7 +912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SOD-323"
+		(property "Footprint" "rsx_diodes:D_SOD-323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1061,6 +1061,151 @@
 			)
 		)
 	)
+	(symbol "9V1"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9V1"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/CZRU52C2-CZRU52C39_DS.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE ZENER 9.1V 150MW SOD523F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "9V1_0_1"
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "9V1_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ACGRTS4007-HF"
 		(pin_numbers hide)
 		(pin_names
@@ -1084,7 +1229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SOD-123F"
+		(property "Footprint" "rsx_diodes:D_SOD-123F"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1258,7 +1403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
 			(at 1.905 3.175 0)
 			(effects
 				(font
@@ -1615,7 +1760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
 			(at 1.905 3.175 0)
 			(effects
 				(font
@@ -1970,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SOD-123F"
+		(property "Footprint" "rsx_diodes:D_SOD-123F"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2151,7 +2296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SMA"
+		(property "Footprint" "rsx_diodes:D_SMA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2323,7 +2468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:SOD-323F"
+		(property "Footprint" "rsx_diodes:SOD-323F"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2472,6 +2617,178 @@
 			)
 		)
 	)
+	(symbol "NSR02100"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NSR02100"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_diodes:D_SOD-323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 200MA SOD323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "onsemi"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "NSR02100HT1GOSCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NSR02100HT1G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NSR02100_0_1"
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NSR02100_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "S1G"
 		(pin_numbers hide)
 		(pin_names
@@ -2495,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SMA"
+		(property "Footprint" "rsx_diodes:D_SMA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2676,7 +2993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23-6_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23-6_DL"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -3361,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_diodes:D_SOD-323"
+		(property "Footprint" "rsx_diodes:D_SOD-323"
 			(at 0 0 0)
 			(effects
 				(font
