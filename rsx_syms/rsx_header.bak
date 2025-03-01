@@ -244,7 +244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:TestPoint_Keystone_5000-5004_Miniature_DL"
+		(property "Footprint" "rsx_headers:TestPoint_Keystone_5000-5004_Miniature_DL"
 			(at 5.08 0 0)
 			(effects
 				(font
@@ -374,7 +374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:TestPoint_Keystone_5010-5014_Multipurpose_DL"
+		(property "Footprint" "rsx_headers:TestPoint_Keystone_5010-5014_Multipurpose_DL"
 			(at 5.08 0 0)
 			(effects
 				(font
@@ -501,7 +501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:61200621621"
+		(property "Footprint" "rsx_headers:61200621621"
 			(at 0 0 0)
 			(effects
 				(font
@@ -697,7 +697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "rsx_headers:B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -912,7 +912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:BHR-12-VUA"
+		(property "Footprint" "rsx_headers:BHR-12-VUA"
 			(at 2.54 14.986 0)
 			(effects
 				(font
@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1730,7 +1730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:PinSocket_1x10_P2.54mm_Vertical"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -2247,7 +2247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:PinSocket_1x14_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:PinSocket_1x14_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2932,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:ESQ-12POS"
+		(property "Footprint" "rsx_headers:ESQ-12POS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3535,7 +3535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:CON10_2X5_DU_FTSH_SAI-L"
+		(property "Footprint" "rsx_headers:CON10_2X5_DU_FTSH_SAI-L"
 			(at -0.508 0.254 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:PinHeader_2x02_P2.54mm_Vertical_Long"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4240,7 +4240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+		(property "Description" "CONN SOCKET 4POS 0.1 GOLD PCB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4249,7 +4249,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity AMP Connectors"
+		(property "MFR" "Samtec Inc."
 			(at 0 0 0)
 			(effects
 				(font
@@ -4258,7 +4258,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "A34976-02-ND"
+		(property "DPN" "ESQ-102-14-L-D-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4267,7 +4267,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9-146254-0-02"
+		(property "MPN" "ESQ-102-14-L-D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:PinHeader_1x02_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4625,7 +4625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:PinHeader_2x02_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4849,7 +4849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "rsx_headers:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5411,7 +5411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:M12D-04PMMC-SF8B15"
+		(property "Footprint" "rsx_headers:M12D-04PMMC-SF8B15"
 			(at -11.43 8.89 0)
 			(effects
 				(font
@@ -5501,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:M4 PEM"
+		(property "Footprint" "rsx_headers_screw:M4 PEM"
 			(at -0.254 7.112 0)
 			(effects
 				(font
@@ -5647,7 +5647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5826,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6046,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6308,7 +6308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 1.27 13.97 0)
 			(effects
 				(font
@@ -6610,7 +6610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6955,7 +6955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -7134,7 +7134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -7371,7 +7371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical_DL"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -7608,7 +7608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -7903,7 +7903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical_DL"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -8198,7 +8198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -8551,7 +8551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical_DL"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -8904,7 +8904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -9315,7 +9315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-1012_2x05_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-1012_2x05_P3.00mm_Vertical_DL"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -9726,7 +9726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical_DL"
 			(at 3.81 -3.81 90)
 			(effects
 				(font
@@ -10195,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-1400_2x07_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-1400_2x07_P3.00mm_Horizontal"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -10722,7 +10722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-1412_2x07_P3.00mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-1412_2x07_P3.00mm_Vertical"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -11249,7 +11249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -11832,7 +11832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal_DL"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -12533,7 +12533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical_DL"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -13233,7 +13233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-2400_2x12_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-2400_2x12_P3.00mm_Horizontal"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -14050,7 +14050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -14867,7 +14867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at -1.27 10.16 0)
 			(effects
 				(font
@@ -15046,7 +15046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical_DL"
 			(at -1.27 10.16 0)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
 			(at -1.27 10.16 0)
 			(effects
 				(font
@@ -15404,7 +15404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal"
 			(at 17.78 7.62 0)
 			(effects
 				(font
@@ -15612,7 +15612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical_DL"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical_DL"
 			(at 17.78 7.62 0)
 			(effects
 				(font
@@ -15818,7 +15818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16037,7 +16037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_PicoBlade_53047-1410_1x14_P1.25mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_PicoBlade_53047-1410_1x14_P1.25mm_Vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16708,7 +16708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical"
 			(at -35.56 19.05 0)
 			(effects
 				(font
@@ -16887,7 +16887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_PicoBlade_53398-0371_1x03-1MP_P1.25mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_PicoBlade_53398-0371_1x03-1MP_P1.25mm_Vertical"
 			(at -35.56 19.05 0)
 			(effects
 				(font
@@ -17107,7 +17107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Mega-Fit_76825-0004_2x02_P5.70mm_Horizontal_DL"
+		(property "Footprint" "rsx_headers:Molex_Mega-Fit_76825-0004_2x02_P5.70mm_Horizontal_DL"
 			(at -1.27 8.89 0)
 			(effects
 				(font
@@ -17344,7 +17344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_Mega-Fit_76829-0104_2x02_P5.70mm_Vertical"
+		(property "Footprint" "rsx_headers:Molex_Mega-Fit_76829-0104_2x02_P5.70mm_Vertical"
 			(at -1.27 8.89 0)
 			(effects
 				(font
@@ -17581,7 +17581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Molex_iGrid_501876-2040_2x20"
+		(property "Footprint" "rsx_headers:Molex_iGrid_501876-2040_2x20"
 			(at -2.54 7.62 0)
 			(effects
 				(font
@@ -18279,7 +18279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:BarrelJack_CUI_PJ-102AH_Horizontal"
+		(property "Footprint" "rsx_headers:BarrelJack_CUI_PJ-102AH_Horizontal"
 			(at 1.27 -1.016 0)
 			(effects
 				(font
@@ -18526,7 +18526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:PHOENIX_1156862"
+		(property "Footprint" "rsx_headers:PHOENIX_1156862"
 			(at 0.254 16.51 0)
 			(effects
 				(font
@@ -19214,7 +19214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Phoenix_FR1,27_12FH1337010"
+		(property "Footprint" "rsx_headers:Phoenix_FR1,27_12FH1337010"
 			(at 38.1 -5.08 90)
 			(effects
 				(font
@@ -19746,7 +19746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:1373827"
+		(property "Footprint" "rsx_headers:1373827"
 			(at 24.13 0 90)
 			(effects
 				(font
@@ -20278,7 +20278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Phoenix_FR1,27_12FM1377297"
+		(property "Footprint" "rsx_headers:Phoenix_FR1,27_12FM1377297"
 			(at 24.13 0 90)
 			(effects
 				(font
@@ -20810,7 +20810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:1337012"
+		(property "Footprint" "rsx_headers:1337012"
 			(at 0.762 25.654 0)
 			(effects
 				(font
@@ -21574,7 +21574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Pheonix__FR1,27_20MV1337140"
+		(property "Footprint" "rsx_headers:Pheonix__FR1,27_20MV1337140"
 			(at 0.762 25.654 0)
 			(effects
 				(font
@@ -22316,6 +22316,241 @@
 			)
 		)
 	)
+	(symbol "S5B-XH-A"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S5B-XH-A"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 5POS 2.5MM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "455-S5B-XH-A-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "S5B-XH-A_1_1"
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "WR-TBL_321_2"
 		(pin_names
 			(offset 1.016) hide)
@@ -22338,7 +22573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Wurth_691321300002"
+		(property "Footprint" "rsx_headers:Wurth_691321300002"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22517,7 +22752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Wurth_691321300003"
+		(property "Footprint" "rsx_headers:Wurth_691321300003"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22724,6 +22959,226 @@
 			)
 		)
 	)
+	(symbol "WR-TBL_3221"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WR-TBL_3221"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_headers:Wurth_691322110003"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691322110003.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TERM BLOCK HDR 3POS 90DEG 3.5MM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Wurth Elektronik"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-2770-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "691322110003"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WR-TBL_3221_1_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 0.8636 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.8636 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy 0.8636 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.8636 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.8636 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.8636 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Wurth_61200821621"
 		(pin_names
 			(offset 1.016) hide)
@@ -22746,7 +23201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Wurth_61200821621"
+		(property "Footprint" "rsx_headers:Wurth_61200821621"
 			(at 2.032 12.192 0)
 			(effects
 				(font
@@ -23099,7 +23554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers:Wurth_61201021621"
+		(property "Footprint" "rsx_headers:Wurth_61201021621"
 			(at 2.54 14.986 0)
 			(effects
 				(font

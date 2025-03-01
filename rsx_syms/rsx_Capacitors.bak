@@ -28,7 +28,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0603_1608Metric"
+		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -127,6 +127,169 @@
 			)
 		)
 		(symbol "0u1_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1.5n"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5n"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1500PF 50V C0G/NP0 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-1455-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1885C1H152JA01D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1.5n_0_1"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1.5n_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 2.794)
@@ -328,6 +491,142 @@
 			)
 		)
 	)
+	(symbol "10n"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B103KB8NNNC_Spec.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10000PF 50V X7R 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "10n_0_1"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "10n_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "10p"
 		(pin_numbers hide)
 		(pin_names
@@ -354,7 +653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0603_1608Metric"
+		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -517,7 +816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0805_2012Metric"
+		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -680,7 +979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:Radial_4Pin_57.50x35.00mm"
+		(property "Footprint" "rsx_capacitors:Radial_4Pin_57.50x35.00mm"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -843,7 +1142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0603_1608Metric"
+		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1006,7 +1305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0805_2012Metric"
+		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1332,7 +1631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_1206_3216Metric"
+		(property "Footprint" "rsx_capacitors:C_1206_3216Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1495,7 +1794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "rsx_capacitors:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1658,7 +1957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0805_2012Metric"
+		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1821,7 +2120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0603_1608Metric"
+		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1984,7 +2283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0603_1608Metric"
+		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -2147,7 +2446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_capacitors:C_0805_2012Metric"
+		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font

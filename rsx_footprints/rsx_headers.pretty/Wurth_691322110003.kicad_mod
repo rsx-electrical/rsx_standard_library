@@ -1,0 +1,237 @@
+(footprint "Wurth_691322110003"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 3221 - 3.50 mm Horizontal PCB Header Max Height = 7mm , Pitch 3.5mm , 3pins")
+	(property "Reference" "REF**"
+		(at 0 -2.635 0)
+		(layer "F.SilkS")
+		(uuid "a2023013-bca3-47bd-89c1-226aee4a7fb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wurth_691322110003"
+		(at 4.12 9.365 0)
+		(layer "F.Fab")
+		(uuid "65aa096f-4918-44a6-966c-040c7bc63201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d3c5a66-3825-414f-b659-919febf1a13f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70cef3bf-2c51-4390-8f0f-c6c729264d5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc7242fd-482f-4b95-95fd-f3911dc0f7f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.05 -1.3)
+		(end -4.05 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c1df5e4-2973-48e0-83ed-e68b5db0d1b6")
+	)
+	(fp_line
+		(start -6.05 8.1)
+		(end -6.05 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a770842-8c1b-4b8f-a51b-9ab3694f7446")
+	)
+	(fp_line
+		(start -2.95 -1.3)
+		(end -0.55 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2798c97-e20c-4d99-8f51-10f7bb4cfc73")
+	)
+	(fp_line
+		(start 0.55 -1.3)
+		(end 2.95 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9be2249-1a07-45e4-b4eb-c60cdee121f1")
+	)
+	(fp_line
+		(start 4.05 -1.3)
+		(end 6.05 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93ba1e86-bd7f-4368-88be-f48e7293b980")
+	)
+	(fp_line
+		(start 6.05 -1.3)
+		(end 6.05 8.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4f3206d-332d-493f-87d3-5d787c284dfa")
+	)
+	(fp_line
+		(start 6.05 8.1)
+		(end -6.05 8.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88dcd8f3-f4bf-4493-8739-52461b5e27ff")
+	)
+	(fp_circle
+		(center -4.85 1.6)
+		(end -4.75 1.6)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c2a058d9-81cb-494d-8e0a-680a082d40c3")
+	)
+	(fp_poly
+		(pts
+			(xy -6.25 -1.5) (xy 6.25 -1.5) (xy 6.25 8.3) (xy -6.25 8.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "9ef627fc-3da6-4ae8-85c1-350b3e6e0be3")
+	)
+	(fp_line
+		(start -5.95 -1.2)
+		(end -5.95 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e247bff7-4580-4e19-bc0c-842c890cef1a")
+	)
+	(fp_line
+		(start -5.95 8)
+		(end 5.95 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3fd1649-e858-4693-9007-fd41ea3ce5a1")
+	)
+	(fp_line
+		(start 5.95 -1.2)
+		(end -5.95 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b7eeb9d-e060-43b9-945d-f88c83b54ec2")
+	)
+	(fp_line
+		(start 5.95 8)
+		(end 5.95 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e2cfb53-32e9-4c7a-ba3d-2ab04dfedfda")
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a821cbe8-669b-4e13-99e1-460cdc7a2e77")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6aa2871c-fe06-467e-87b4-fc629e9c6223")
+	)
+	(pad "3" thru_hole circle
+		(at 3.5 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "925a6370-f735-4d22-9f44-a613c1761850")
+	)
+	(model "C:/Users/aweso/Documents/KiCad/8.0/3dmodels/691322110003/691322110003.step"
+		(offset
+			(xyz 0 -2.5 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
