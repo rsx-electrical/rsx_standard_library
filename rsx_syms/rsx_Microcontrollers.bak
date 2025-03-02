@@ -282,7 +282,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "NUCLEO-F767ZI:ST_NUCLEO-F767ZI"
+		(property "Footprint" "rsx_microcontroller:ST_NUCLEO-F767ZI"
 			(at 0 0 0)
 			(effects
 				(font
