@@ -1541,7 +1541,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina597.pdf"
-			(at 0 0 0)
+			(at -1.778 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1550,7 @@
 			)
 		)
 		(property "Description" "IC OPAMP DIFF 1 CIRCUIT 8SOIC"
-			(at 0 0 0)
+			(at -3.81 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1559,7 @@
 			)
 		)
 		(property "MFR" "Texas Instruments"
-			(at 0 0 0)
+			(at 8.89 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 			)
 		)
 		(property "DPN" "296-INA597IDRCT-ND"
-			(at 0 0 0)
+			(at -4.064 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,7 +1577,7 @@
 			)
 		)
 		(property "MPN" "INA597IDR"
-			(at 0 0 0)
+			(at 10.668 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,9 +1619,9 @@
 		)
 		(symbol "INA597IDR_1_1"
 			(pin input line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "-IN"
+				(at 2.54 -7.62 90)
+				(length 5.08)
+				(name "REF"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1637,9 +1637,9 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -7.62 90)
-				(length 5.08)
-				(name "REF"
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "-IN"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1654,13 +1654,13 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -7.62 90)
+			(pin input line
+				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "-Vs"
+				(name "+IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -1672,10 +1672,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -5.08 0 180)
-				(length 2.54) hide
-				(name "NC"
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 2.54)
+				(name "-Vs"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1744,13 +1744,13 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "+IN"
+			(pin no_connect line
+				(at -5.08 0 180)
+				(length 2.54) hide
+				(name "NC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
