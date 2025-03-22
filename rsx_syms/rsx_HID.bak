@@ -250,7 +250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:FSMSMTR"
+		(property "Footprint" "rsx_HID:FSMSMTR"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -420,7 +420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:EG2301"
+		(property "Footprint" "rsx_HID:EG2301"
 			(at -15.875 4.445 0)
 			(effects
 				(font
@@ -721,7 +721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:OS203012MU5QP1"
+		(property "Footprint" "rsx_HID:OS203012MU5QP1"
 			(at -15.875 4.445 0)
 			(effects
 				(font
@@ -1022,7 +1022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:EG2201"
+		(property "Footprint" "rsx_HID:EG2201"
 			(at 13.97 5.08 0)
 			(effects
 				(font
@@ -1311,7 +1311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:ESWITCH_100SP1T1B4M2QE"
+		(property "Footprint" "rsx_HID:ESWITCH_100SP1T1B4M2QE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1502,7 +1502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:SW_E-Switch_EG1271_DPDT"
+		(property "Footprint" "rsx_HID:SW_E-Switch_EG1271_DPDT"
 			(at -1.27 12.7 0)
 			(effects
 				(font
@@ -1747,7 +1747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:SW_DIP_SPSTx04_Slide_Omron_A6S-410x_W8.9mm_P2.54mm_DL"
+		(property "Footprint" "rsx_HID:SW_DIP_SPSTx04_Slide_Omron_A6S-410x_W8.9mm_P2.54mm_DL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2150,7 +2150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:SW_DS05-127-2-08BK-SMT-TR_DL"
+		(property "Footprint" "rsx_HID:SW_DS05-127-2-08BK-SMT-TR_DL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2896,7 +2896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_HID:SW3_100SP3T2B4VS2QE_EWI"
+		(property "Footprint" "rsx_HID:SW3_100SP3T2B4VS2QE_EWI"
 			(at -15.875 4.445 0)
 			(effects
 				(font
@@ -2992,6 +2992,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 2.032 -2.54)
 				(radius 0.4572)
@@ -3036,24 +3048,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
