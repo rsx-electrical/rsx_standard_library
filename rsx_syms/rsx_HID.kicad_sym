@@ -423,7 +423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rsx_HID:FSMSMTR"
+		(property "Footprint" "rsx_HID:button_30V_1A"
 			(at 0 5.08 0)
 			(effects
 				(font
