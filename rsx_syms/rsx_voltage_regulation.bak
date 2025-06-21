@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:TSOT-23-6_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:TSOT-23-6_DL"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -238,7 +238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:TSOT-23-6_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:TSOT-23-6_DL"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -454,7 +454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:TSOT-23-6_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:TSOT-23-6_DL"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -670,7 +670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_DFN_QFN:DFN-8-1EP_4x4mm_P0.8mm_EP1.98x3mm"
+		(property "Footprint" "rsx_packages_DFN_QFN:DFN-8-1EP_4x4mm_P0.8mm_EP1.98x3mm"
 			(at -24.892 29.718 0)
 			(effects
 				(font
@@ -902,6 +902,190 @@
 			)
 		)
 	)
+	(symbol "LM2596S-5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM2596S-5"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+			(at 1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "LM2596S-5.0/NOPB-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Step-Down Voltage Regulator 5V 3A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO?263*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM2596S-5_0_1"
+			(rectangle
+				(start -10.16 5.08)
+				(end 10.16 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM2596S-5_1_1"
+			(pin power_in line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "~{ON}/OFF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LM2776"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -923,7 +1107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23-6_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23-6_DL"
 			(at 1.27 -8.89 0)
 			(effects
 				(font
@@ -1140,7 +1324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_DFN_QFN:DFN-8-1EP_4x4mm_P0.8mm_EP1.98x3mm"
+		(property "Footprint" "rsx_packages_DFN_QFN:DFN-8-1EP_4x4mm_P0.8mm_EP1.98x3mm"
 			(at -24.892 29.718 0)
 			(effects
 				(font
@@ -1392,7 +1576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:TSOT-23-5"
+		(property "Footprint" "rsx_packages_TO_SOT:TSOT-23-5"
 			(at 29.21 -12.7 0)
 			(effects
 				(font
@@ -1572,7 +1756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:TO-252-3_TabPin2"
+		(property "Footprint" "rsx_packages_TO_SOT:TO-252-3_TabPin2"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1720,7 +1904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
 			(at 0 5.715 0)
 			(effects
 				(font
@@ -1885,7 +2069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -2032,7 +2216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -2180,7 +2364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-223-3_TabPin2"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-223-3_TabPin2"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2346,7 +2530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-223-3_TabPin2"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-223-3_TabPin2"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2508,7 +2692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_misc:Converter_DCDC_muRata_NMKDxxxxSAC_THT"
+		(property "Footprint" "rsx_misc:Converter_DCDC_muRata_NMKDxxxxSAC_THT"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -2688,7 +2872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_SIP:SIP-4_CUI"
+		(property "Footprint" "rsx_SIP:SIP-4_CUI"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -2850,7 +3034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:SOIC5_PDS2-S12_CUI"
+		(property "Footprint" "rsx_packages_SO:SOIC5_PDS2-S12_CUI"
 			(at -1.27 11.43 0)
 			(effects
 				(font
@@ -3034,7 +3218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -3238,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-23"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -3438,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_SIP:SIP-4_CUI"
+		(property "Footprint" "rsx_SIP:SIP-4_CUI"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -3600,7 +3784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_SIP:8-SIP Module, 7 Leads"
+		(property "Footprint" "rsx_SIP:8-SIP Module, 7 Leads"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -3996,7 +4180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
 			(at -2.794 25.146 0)
 			(effects
 				(font
@@ -4230,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_packages_TO_SOT:SOT-563_DL"
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-563_DL"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -4450,7 +4634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-zinc_SIP:SIP-3_CUI"
+		(property "Footprint" "rsx_SIP:SIP-3_CUI"
 			(at 1.27 10.16 0)
 			(effects
 				(font

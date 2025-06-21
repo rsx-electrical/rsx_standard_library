@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:PQ2617BHA-150K"
+		(property "Footprint" "rsx_inductors:PQ2617BHA-XXXK"
 			(at 2.54 12.7 0)
 			(effects
 				(font
@@ -209,7 +209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:L_0603_1608Metric"
+		(property "Footprint" "rsx_inductors:L_0603_1608Metric"
 			(at 2.54 16.51 0)
 			(effects
 				(font
@@ -379,6 +379,190 @@
 			)
 		)
 	)
+	(symbol "33UH_3.23A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33UH_3.23A"
+			(at 1.905 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_inductors:IND_DR127-330-R_EAT"
+			(at 2.54 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 33UH 3.23A 60 MOHM SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Eaton - Electronics Division"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "513-1047-1-ND"
+			(at 2.54 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DR127-330-R"
+			(at 2.54 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "33UH_3.23A_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "33UH_3.23A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "4u7 2A"
 		(pin_numbers hide)
 		(pin_names
@@ -402,7 +586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:IND_BOURNS_SRR7032"
+		(property "Footprint" "rsx_inductors:IND_BOURNS_SRR7032"
 			(at 2.54 12.7 0)
 			(effects
 				(font
@@ -585,7 +769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:Wurth_750311838"
+		(property "Footprint" "rsx_inductors:Wurth_750311838"
 			(at -16.51 -17.78 0)
 			(effects
 				(font
@@ -1127,7 +1311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:Wurth-750312559"
+		(property "Footprint" "rsx_inductors:Wurth-750312559"
 			(at 1.27 20.32 0)
 			(effects
 				(font
@@ -1565,7 +1749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:Wurth_750313970"
+		(property "Footprint" "rsx_inductors:Wurth_750313970"
 			(at -1.27 -20.32 0)
 			(effects
 				(font
@@ -2108,7 +2292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:CPRX3231L"
+		(property "Footprint" "rsx_inductors:CPRX3231L"
 			(at 2.54 12.7 0)
 			(effects
 				(font
@@ -2291,7 +2475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_inductors:Pulse_PG1895NLT"
+		(property "Footprint" "rsx_inductors:Pulse_PG1895NLT"
 			(at 0 -21.59 0)
 			(effects
 				(font
