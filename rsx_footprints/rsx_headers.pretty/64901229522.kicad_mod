@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "64901229522"
-		(at 21.67 -2.805 0)
+		(at 21 -12.5 0)
 		(layer "F.Fab")
 		(uuid "e60b42b2-ef11-4d5a-9a7a-102c85cfc9f9")
 		(effects
@@ -62,26 +62,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -13.3 -6.5)
-		(end -13.3 6.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "816ca1d5-3551-4b46-866f-85e1fdf2b6b7")
-	)
-	(fp_line
-		(start -13.3 6.5)
-		(end 13.3 6.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "75e5f5b0-5e96-4a40-b0c6-b3f16a89d011")
-	)
 	(fp_line
 		(start -11.9 -6.5)
 		(end -13.3 -6.5)
@@ -152,16 +132,6 @@
 		(layer "F.SilkS")
 		(uuid "0682cea0-4b8d-49b4-9a84-6dcd03139a14")
 	)
-	(fp_line
-		(start 13.3 6.5)
-		(end 13.3 -6.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7c828d9c-252a-4df8-8a3a-840c8b76dd87")
-	)
 	(fp_circle
 		(center 12.5 -7.65)
 		(end 12.6 -7.65)
@@ -175,7 +145,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -13.5 -14.55) (xy 13.5 -14.55) (xy 13.5 6.7) (xy -13.5 6.7)
+			(xy -13.5 -14.55) (xy 13.5 -14.55) (xy 13.5 -5.8) (xy -13.5 -5.8)
 		)
 		(stroke
 			(width 0.1)
@@ -184,96 +154,6 @@
 		(fill solid)
 		(layer "F.CrtYd")
 		(uuid "aafd9588-7207-4d0e-950c-aef7068f7b1f")
-	)
-	(fp_line
-		(start -13.2 -6.4)
-		(end 13.2 -6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a220eee9-95d1-4bef-a763-6483b7da0900")
-	)
-	(fp_line
-		(start -13.2 6.4)
-		(end -13.2 -6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "8fcbcfde-3701-4d99-9198-1ce6bb82e18b")
-	)
-	(fp_line
-		(start -1.7 3.4)
-		(end 1.7 3.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "4eb11aff-c7d6-4e63-af6f-b005520e3fc1")
-	)
-	(fp_line
-		(start -1.7 6.4)
-		(end -13.2 6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "8b3f5e7b-0cd1-4f0b-ae9d-d7f09e8e8dee")
-	)
-	(fp_line
-		(start -1.7 6.4)
-		(end -1.7 3.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7555d252-73bb-4042-9202-2d4dd1057170")
-	)
-	(fp_line
-		(start 1.7 3.4)
-		(end 1.7 6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a9ed3027-9ec6-4e84-97f8-aad20119cdb4")
-	)
-	(fp_line
-		(start 1.7 6.4)
-		(end -1.7 6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f338a972-f1a3-4b67-a5b9-19417b81ade2")
-	)
-	(fp_line
-		(start 13.2 -6.4)
-		(end 13.2 6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e868aa56-8f78-4c24-a658-c579b0144f3d")
-	)
-	(fp_line
-		(start 13.2 6.4)
-		(end 1.7 6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "60174b31-bd1e-47e2-a831-ebaf2956127c")
 	)
 	(pad "1" thru_hole circle
 		(at 10.5 -7.5)
