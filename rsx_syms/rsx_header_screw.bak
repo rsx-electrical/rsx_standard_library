@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "7792"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Keystone_7792"
+		(property "Footprint" "rsx_headers_screw:Keystone_7792"
 			(at 0 0 0)
 			(effects
 				(font
@@ -96,7 +96,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -114,7 +115,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -132,7 +134,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -150,18 +153,6 @@
 			)
 		)
 		(symbol "7792_0_1"
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 2.54 2.54)
 				(end 7.62 -2.54)
@@ -184,7 +175,20 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "7795"
 		(exclude_from_sim no)
@@ -206,7 +210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Keystone_7795"
+		(property "Footprint" "rsx_headers_screw:Keystone_7795"
 			(at 0 0 0)
 			(effects
 				(font
@@ -281,7 +285,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -299,7 +304,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -317,7 +323,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -335,18 +342,6 @@
 			)
 		)
 		(symbol "7795_0_1"
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 2.54 2.54)
 				(end 7.62 -2.54)
@@ -369,7 +364,20 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "7798"
 		(exclude_from_sim no)
@@ -391,7 +399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Keystone_7798"
+		(property "Footprint" "rsx_headers_screw:Keystone_7798"
 			(at 0 0 0)
 			(effects
 				(font
@@ -466,7 +474,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -484,7 +493,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -502,7 +512,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -520,18 +531,6 @@
 			)
 		)
 		(symbol "7798_0_1"
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 2.54 2.54)
 				(end 7.62 -2.54)
@@ -554,7 +553,20 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "8186"
 		(exclude_from_sim no)
@@ -576,7 +588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Keystone_8186"
+		(property "Footprint" "rsx_headers_screw:Keystone_8186"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -651,7 +663,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -669,7 +682,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -687,7 +701,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -705,18 +720,6 @@
 			)
 		)
 		(symbol "8186_0_1"
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 2.54 2.54)
 				(end 7.62 -2.54)
@@ -739,7 +742,20 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OP-075-M5"
 		(exclude_from_sim no)
@@ -763,7 +779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:OP-075-M5"
+		(property "Footprint" "rsx_headers_screw:OP-075-M5"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -839,7 +855,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -857,7 +874,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -875,7 +893,8 @@
 			)
 			(pin unspecified line
 				(at 0 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -893,18 +912,6 @@
 			)
 		)
 		(symbol "OP-075-M5_0_1"
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 2.54 2.54)
 				(end 7.62 -2.54)
@@ -927,11 +934,26 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PTSM-4"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -952,7 +974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Phoenix_PTSM_4_Female_SMD"
+		(property "Footprint" "rsx_headers_screw:Phoenix_PTSM_4_Female_SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1036,43 +1058,9 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -5.08)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
 				)
 				(stroke
 					(width 0.1524)
@@ -1096,7 +1084,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -1108,7 +1096,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
 				)
 				(stroke
 					(width 0.1524)
@@ -1120,7 +1108,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
 				)
 				(stroke
 					(width 0.1524)
@@ -1144,8 +1132,31 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 3.048) (xy 0.508 2.2098)
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -1166,7 +1177,18 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.08)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -1249,10 +1271,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Screw_Terminal_04_5.08"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1273,7 +1298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Molex_0398800304"
+		(property "Footprint" "rsx_headers_screw:Molex_0398800304"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1357,43 +1382,9 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -5.08)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
 				)
 				(stroke
 					(width 0.1524)
@@ -1417,7 +1408,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -1429,7 +1420,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
 				)
 				(stroke
 					(width 0.1524)
@@ -1441,7 +1432,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
 				)
 				(stroke
 					(width 0.1524)
@@ -1465,8 +1456,31 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 3.048) (xy 0.508 2.2098)
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -1487,7 +1501,18 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.08)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -1570,10 +1595,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Screw_Terminal_04_5.08_35deg"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1594,7 +1622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Molex_0398800404"
+		(property "Footprint" "rsx_headers_screw:Molex_0398800404"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1678,43 +1706,9 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -5.08)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
 				)
 				(stroke
 					(width 0.1524)
@@ -1738,7 +1732,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -1750,7 +1744,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
 				)
 				(stroke
 					(width 0.1524)
@@ -1762,7 +1756,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
 				)
 				(stroke
 					(width 0.1524)
@@ -1786,8 +1780,31 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 3.048) (xy 0.508 2.2098)
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -1808,7 +1825,18 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.08)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -1891,10 +1919,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Screw_Terminal_2x10.16"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1915,7 +1946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Amphenol_VP0265540000G"
+		(property "Footprint" "rsx_headers_screw:Amphenol_VP0265540000G"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1999,9 +2030,10 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2024,7 +2056,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
 				)
 				(stroke
 					(width 0.1524)
@@ -2046,10 +2078,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -0.3556 0.508) (xy 0.508 -0.3302)
-				)
+			(circle
+				(center 0 0)
+				(radius 0.635)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2059,7 +2090,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 0 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -2106,10 +2137,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Screw_Terminal_2x2.54"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2130,7 +2164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Wurth_691210910002"
+		(property "Footprint" "rsx_headers_screw:Wurth_691210910002"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2214,9 +2248,10 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2239,7 +2274,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
 				)
 				(stroke
 					(width 0.1524)
@@ -2261,10 +2296,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -0.3556 0.508) (xy 0.508 -0.3302)
-				)
+			(circle
+				(center 0 0)
+				(radius 0.635)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2274,7 +2308,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 0 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -2321,10 +2355,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Screw_Terminal_2x5.08"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2345,7 +2382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Molex_0398800302"
+		(property "Footprint" "rsx_headers_screw:Molex_0398800302"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2429,9 +2466,10 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2454,7 +2492,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
 				)
 				(stroke
 					(width 0.1524)
@@ -2476,10 +2514,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -0.3556 0.508) (xy 0.508 -0.3302)
-				)
+			(circle
+				(center 0 0)
+				(radius 0.635)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2489,7 +2526,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 0 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -2536,10 +2573,284 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "Screw_Terminal_3x2.54"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_3x2.54"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691210910003.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3 Position Wire to Board Terminal Block Horizontal with Board 0.100\" (2.54mm) Through Hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Würth Elektronik"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-691210910003-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "691210910003"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Screw_Terminal_3x2.54_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "Screw_Terminal_3x5.08"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2560,7 +2871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Molex_0398800303"
+		(property "Footprint" "rsx_headers_screw:Molex_0398800303"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2644,20 +2955,9 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
 				)
 				(stroke
 					(width 0.1524)
@@ -2681,7 +2981,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -2693,7 +2993,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
 				)
 				(stroke
 					(width 0.1524)
@@ -2717,8 +3017,19 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 3.048) (xy 0.508 2.2098)
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2739,7 +3050,7 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 0 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -2804,10 +3115,337 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "Screw_Terminal_4x2.54"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_4_5.08"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "rsx_headers_screw:TerminalBlock_Wurth_691210910004-2.54-4P_1x04_P2.54mm_Horizontal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691210910004.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 Position Wire to Board Terminal Block Horizontal with Board 0.100\" (2.54mm) Through Hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Würth Elektronik"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-691210910004-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "691210910004"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Screw_Terminal_4x2.54_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.08)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "Screw_Terminal_5x5.08"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2828,7 +3466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Molex_0398800305"
+		(property "Footprint" "rsx_headers_screw:Molex_0398800305"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2912,55 +3550,9 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 -5.08)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 -2.54)
-				(radius 0.635)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					(xy -0.5334 5.4102) (xy 0.3302 4.572)
 				)
 				(stroke
 					(width 0.1524)
@@ -2984,7 +3576,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
 				)
 				(stroke
 					(width 0.1524)
@@ -2996,7 +3588,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -3008,7 +3600,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
 				)
 				(stroke
 					(width 0.1524)
@@ -3020,7 +3612,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					(xy -0.3556 5.588) (xy 0.508 4.7498)
 				)
 				(stroke
 					(width 0.1524)
@@ -3044,7 +3636,31 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3556 5.588) (xy 0.508 4.7498)
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
 				)
 				(stroke
 					(width 0.1524)
@@ -3055,7 +3671,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 0 5.08)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -3077,7 +3693,29 @@
 				)
 			)
 			(circle
-				(center 0 5.08)
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.08)
 				(radius 0.635)
 				(stroke
 					(width 0.1524)
@@ -3178,6 +3816,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Wurth_7461108"
 		(exclude_from_sim no)
@@ -3199,7 +3838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Wurth 7461108"
+		(property "Footprint" "rsx_headers_screw:Wurth 7461108"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -3274,18 +3913,6 @@
 			)
 		)
 		(symbol "Wurth_7461108_0_1"
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 2.54 2.54)
 				(end 7.62 -2.54)
@@ -3308,7 +3935,20 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Wurth_74622105"
 		(exclude_from_sim no)
@@ -3330,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-zinc_headers_screw:Wurth 74622105"
+		(property "Footprint" "rsx_headers_screw:Wurth 74622105"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -3405,18 +4045,6 @@
 			)
 		)
 		(symbol "Wurth_74622105_0_1"
-			(polyline
-				(pts
-					(xy 6.35 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 2.54 2.54)
 				(end 7.62 -2.54)
@@ -3439,6 +4067,19 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )
