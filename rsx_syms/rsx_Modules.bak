@@ -6789,7 +6789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:ST_NUCLEO-F767ZI Sheild"
+		(property "Footprint" "rsx_microcontroller:ST_NUCLEO-F767ZI SHIELD"
 			(at 0 0 0)
 			(effects
 				(font
