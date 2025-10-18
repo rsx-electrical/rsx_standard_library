@@ -93,9 +93,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -3.81)
-				(mid 0.7439 -3.0661)
-				(end 0 -1.27)
+				(start 0 1.27)
+				(mid 0.7439 3.0661)
+				(end 2.54 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -105,9 +105,9 @@
 				)
 			)
 			(arc
-				(start 0 1.27)
-				(mid 0.7439 3.0661)
-				(end 2.54 3.81)
+				(start 2.54 -3.81)
+				(mid 0.7439 -3.0661)
+				(end 0 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -428,9 +428,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -5.08)
-				(mid 0.7439 -4.3361)
-				(end 0 -2.54)
+				(start 0 0)
+				(mid 0.7439 1.7961)
+				(end 2.54 2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -440,9 +440,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.7439 1.7961)
-				(end 2.54 2.54)
+				(start 2.54 -5.08)
+				(mid 0.7439 -4.3361)
+				(end 0 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -723,9 +723,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -3.81)
-				(mid 0.7439 -3.0661)
-				(end 0 -1.27)
+				(start 0 1.27)
+				(mid 0.7439 3.0661)
+				(end 2.54 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -735,9 +735,9 @@
 				)
 			)
 			(arc
-				(start 0 1.27)
-				(mid 0.7439 3.0661)
-				(end 2.54 3.81)
+				(start 2.54 -3.81)
+				(mid 0.7439 -3.0661)
+				(end 0 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -1047,9 +1047,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -3.81)
-				(mid 0.7439 -3.0661)
-				(end 0 -1.27)
+				(start 0 1.27)
+				(mid 0.7439 3.0661)
+				(end 2.54 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1059,9 +1059,9 @@
 				)
 			)
 			(arc
-				(start 0 1.27)
-				(mid 0.7439 3.0661)
-				(end 2.54 3.81)
+				(start 2.54 -3.81)
+				(mid 0.7439 -3.0661)
+				(end 0 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -2427,7 +2427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rsx_sensors:LA_130_P"
 			(at 0 0 0)
 			(effects
 				(font
