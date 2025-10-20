@@ -3255,7 +3255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO252_DIO"
+		(property "Footprint" "rsx_diodes:TO252_DIO"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CR_R1_00001_PNJ"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SS2040FL_R1_00001"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS2020FL_SERIES.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3593,14 +3593,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "SS2040FL_R1_00001"

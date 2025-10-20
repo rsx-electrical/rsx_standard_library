@@ -3566,7 +3566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CR_R1_00001_PNJ"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SS2040FL_R1_00001"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS2020FL_SERIES.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3586,7 +3586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 40V 2A SOD123FL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3595,12 +3595,31 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "DPN" "3757-SS2040FL_R1_00001CT-ND"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS2040FL_R1_00001"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit International Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SS2040FL_R1_00001"
