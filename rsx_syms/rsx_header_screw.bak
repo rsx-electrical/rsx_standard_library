@@ -3142,7 +3142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rsx_headers_screw:TerminalBlock_Wurth_691210910004-2.54-4P_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "rsx_headers_screw:Wurth_691210910004"
 			(at 0 0 0)
 			(effects
 				(font
