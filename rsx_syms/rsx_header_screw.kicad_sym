@@ -2600,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rsx_headers_screw:Wurth_691210910003"
 			(at 0 0 0)
 			(effects
 				(font

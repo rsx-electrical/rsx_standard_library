@@ -4548,7 +4548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-iqdh35n03lm5-datasheet-en.pdf?fileId=8ac78c8c8a44f57b018a456befa5020f"
 			(at 0 0 0)
 			(effects
 				(font
