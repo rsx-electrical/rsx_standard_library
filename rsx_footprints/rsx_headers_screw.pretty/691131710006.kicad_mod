@@ -1,0 +1,222 @@
+(footprint "691131710006"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.635 0)
+		(layer "F.SilkS")
+		(uuid "4feedf02-0b65-473c-9be5-7f173b91ab87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691131710006"
+		(at 4.12 5.865 0)
+		(layer "F.Fab")
+		(uuid "e75f85d9-6e0f-4d0c-bb25-308370748b68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64c84fd0-72f0-4770-a2bb-41891e9cb53c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1686815-be91-44d9-88f4-e338a859c2d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -15.1 -4.35)
+		(end 15.1 -4.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03aa7206-ede2-4c22-933e-424518c8f1d9")
+	)
+	(fp_line
+		(start -15.1 4.35)
+		(end -15.1 -4.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bcba44e-9d5c-4a2a-9ffd-44c6998b2e76")
+	)
+	(fp_line
+		(start 15.1 -4.35)
+		(end 15.1 4.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e113eae5-b202-4dd0-bb01-b5b0dd211dc0")
+	)
+	(fp_line
+		(start 15.1 4.35)
+		(end -15.1 4.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffdc2784-6659-456c-87c8-fce2d7b867d3")
+	)
+	(fp_circle
+		(center -13.7 -1.95)
+		(end -13.6 -1.95)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3923ff3b-948b-460f-ab02-d2bf65826542")
+	)
+	(fp_poly
+		(pts
+			(xy -15.3 -4.55) (xy 15.3 -4.55) (xy 15.3 4.55) (xy -15.3 4.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "dffe5961-6760-4ba4-a983-260c1c1f4f63")
+	)
+	(fp_line
+		(start -15 -4.25)
+		(end 15 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1e860e1-cf26-48bb-adef-521b489b646d")
+	)
+	(fp_line
+		(start -15 4.25)
+		(end -15 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4c0b786-44b2-403f-899b-5e01855ca60c")
+	)
+	(fp_line
+		(start 15 -4.25)
+		(end 15 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ece27da-5e61-492b-8291-b867b0fe9880")
+	)
+	(fp_line
+		(start 15 4.25)
+		(end -15 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed692f4a-0802-4d9b-9ef4-b6c8482bb06f")
+	)
+	(pad "1" thru_hole circle
+		(at -12.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c51af929-25be-483c-afbd-421fcf46071d")
+	)
+	(pad "2" thru_hole circle
+		(at -7.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "79cf13cc-140e-4704-90c5-f15899633f96")
+	)
+	(pad "3" thru_hole circle
+		(at -2.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3a211fd9-2552-40f5-a0d9-62f7848fa339")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e6f1522b-9b6c-4188-84a9-d2a035066f88")
+	)
+	(pad "5" thru_hole circle
+		(at 7.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f751d48a-9af5-453c-ae7b-83a51b830459")
+	)
+	(pad "6" thru_hole circle
+		(at 12.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1db604f1-41f9-4cbe-92e2-06dbb8860c1f")
+	)
+	(embedded_fonts no)
+	(model "${RSX_3D_LIB}/rsx_headers.3dshapes/691131710006+%28rev1%29.stp"
+		(offset
+			(xyz 0 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
