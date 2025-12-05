@@ -28558,6 +28558,386 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Wurth_64900211022"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -0.254 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Wurth_64900211022"
+			(at 10.16 0 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "rsx_headers:Wurth_64900221122"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/64900221122.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-MPC4 THT Male Right Angled Header with Mounting Flanges for Screw-in Retention, pitch 4.2mm, 2p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/64900211022?ad"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/64900211022?ad"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "64900211022"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" "Wire-to-Board Connectors"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WR-MPC4"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mount" "Through Hole"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" "105°C"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" "-40°C"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Tray"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Contact Resistance" "10mΩ"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Gender" "Male"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Insulation Resistance" "1000MΩ"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Number of Pins" "2"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Orientation" "Right Angled"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Pitch" "4.2mm"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Rated Current" "9A"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Working Voltage" "600VAC"
+			(at -5.588 2.54 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*64900211022*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Wurth_64900211022_1_0"
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 1.778 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -5.08)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 0 0) (xy 0 -7.62) (xy 5.08 -7.62) (xy 5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Wurth_64900211022_1_1"
+			(text "Wurth_64900211022"
+				(at 1.016 -12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 50 101 118 1)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Wurth_64900429522"
 		(pin_names
 			(offset 1.016)
@@ -28806,7 +29186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Wurth_64901229522"
+		(property "Value" "Wurth_64900221122"
 			(at 9.84 -1.62 0)
 			(effects
 				(font
@@ -28815,7 +29195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "rsx_headers:64901229522"
+		(property "Footprint" "rsx_headers:64900221122"
 			(at -1.016 9.652 0)
 			(effects
 				(font
@@ -28834,7 +29214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 12POS 4.2MM"
+		(property "Description" "CONN HEADER VERT 2POS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28851,7 +29231,7 @@
 				)
 			)
 		)
-		(property "DPN" "732-4684-ND"
+		(property "DPN" "732-1927-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28859,7 +29239,7 @@
 				)
 			)
 		)
-		(property "MPN" "64901229522"
+		(property "MPN" "64900221122"
 			(at 0 0 0)
 			(effects
 				(font
