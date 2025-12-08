@@ -28806,7 +28806,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Wurth_64901229522"
+		(property "Value" "Wurth_64900221122"
 			(at 9.84 -1.62 0)
 			(effects
 				(font
@@ -28815,7 +28815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "rsx_headers:64901229522"
+		(property "Footprint" "rsx_headers:64900221122"
 			(at -1.016 9.652 0)
 			(effects
 				(font
@@ -28834,7 +28834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 12POS 4.2MM"
+		(property "Description" "CONN HEADER VERT 2POS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28851,7 +28851,7 @@
 				)
 			)
 		)
-		(property "DPN" "732-4684-ND"
+		(property "DPN" "732-1927-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28859,7 +28859,7 @@
 				)
 			)
 		)
-		(property "MPN" "64901229522"
+		(property "MPN" "64900221122"
 			(at 0 0 0)
 			(effects
 				(font
