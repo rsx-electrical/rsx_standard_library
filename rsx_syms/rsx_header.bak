@@ -783,7 +783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_headers:Wago_2716-103"
+		(property "Footprint" "rsx_headers:CONN6_2604-3106_WAG"
 			(at 0 0 0)
 			(effects
 				(font
