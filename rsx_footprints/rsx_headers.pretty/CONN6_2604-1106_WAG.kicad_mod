@@ -745,4 +745,15 @@
 		(uuid "f12d42ae-3d72-45fd-8112-de86fe0220e6")
 	)
 	(embedded_fonts no)
+	(model "${RSX_3D_LIB}/rsx_headers.3dshapes/2604-1106.stp"
+		(offset
+			(xyz 27.25 -8.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )

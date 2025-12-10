@@ -803,7 +803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PCB TERMINAL BLOCK; LEVER; 4 MM;"
 			(at 0 0 0)
 			(effects
 				(font
@@ -812,12 +812,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "DPN" "2946-2604-1106-ND"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2604-1106"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "2604-1106"
