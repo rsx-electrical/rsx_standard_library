@@ -4976,6 +4976,225 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "2K4"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -7.624 2.541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2K4"
+			(at -7.624 -5.087 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "ERJ-3GEYJ242V:RES_ERJ-3GEYJ242V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 2.4K OHM 5% 1/10W 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P2.4KGCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ242V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "2K4_0_0"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -4.445 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 1.905) (xy -3.175 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -1.905) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.905) (xy -0.635 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.905) (xy 0.635 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.905) (xy 1.905 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -1.905) (xy 3.175 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.905) (xy 4.445 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.905) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "2K5"
 		(pin_numbers
 			(hide yes)
@@ -10204,7 +10423,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ERJ-3GEYJ242V"
+	(symbol "ERA3VRW2201V"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10220,7 +10439,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ERJ-3GEYJ242V"
+		(property "Value" "ERA3VRW2201V"
 			(at -7.624 -5.087 0)
 			(effects
 				(font
@@ -10229,7 +10448,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "ERJ-3GEYJ242V:RES_ERJ-3GEYJ242V"
+		(property "Footprint" "rsx_resistors:RES_ERA3VRW2201V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10248,7 +10467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2.4K OHM 5% 1/10W 0603"
+		(property "Description" "RES 2.2K OHM 0.05% 1/8W 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10257,7 +10476,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "P2.4KGCT-ND"
+		(property "DPN" "10-ERA-3VRW2201VCT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10266,7 +10485,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-3GEYJ242V"
+		(property "MPN" "ERA-3VRW2201V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10275,7 +10494,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ERJ-3GEYJ242V_0_0"
+		(symbol "ERA3VRW2201V_0_0"
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -4.445 1.905)
