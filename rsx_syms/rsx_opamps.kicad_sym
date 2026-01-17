@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "AD8479"
 		(pin_names
 			(offset 1.016)
@@ -92,16 +92,16 @@
 					(type none)
 				)
 			)
-			(text "+"
-				(at -4.318 -1.016 0)
+			(text "-"
+				(at -4.318 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(text "-"
-				(at -4.318 1.016 0)
+			(text "+"
+				(at -4.318 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -181,34 +181,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
-				(name "REF_A"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -1.27 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -235,16 +217,34 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 -1.27 180)
 				(length 2.54)
-				(name "NC"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -3.81 180)
+				(length 2.54)
+				(name "REF_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -278,6 +278,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AD8495"
 		(exclude_from_sim no)
@@ -405,34 +406,16 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -7.62 90)
-				(length 5.08)
-				(name "REF"
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "+IN"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 2.54)
-				(name "-Vs"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -442,7 +425,8 @@
 			)
 			(pin no_connect line
 				(at -5.08 0 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -451,42 +435,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "SENSE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -512,17 +460,71 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -2.54 0)
+			(pin power_in line
+				(at -2.54 -7.62 90)
 				(length 2.54)
-				(name "+IN"
+				(name "-Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "SENSE"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -7.62 90)
+				(length 5.08)
+				(name "REF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -531,6 +533,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA149"
 		(pin_names
@@ -622,16 +625,16 @@
 					(type none)
 				)
 			)
-			(text "+"
-				(at -4.318 -1.016 0)
+			(text "-"
+				(at -4.318 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(text "-"
-				(at -4.318 1.016 0)
+			(text "+"
+				(at -4.318 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -711,34 +714,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
-				(name "REF_A"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -1.27 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -765,16 +750,34 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 -1.27 180)
 				(length 2.54)
-				(name "NC"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -3.81 180)
+				(length 2.54)
+				(name "REF_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -808,6 +811,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA181A1"
 		(pin_names
@@ -921,42 +925,6 @@
 			)
 		)
 		(symbol "INA181A1_1_1"
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -993,24 +961,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 2.54 -7.62 90)
-				(length 6.35)
-				(name "REF"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
@@ -1029,7 +979,62 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -7.62 90)
+				(length 6.35)
+				(name "REF"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA181A4"
 		(pin_names
@@ -1143,42 +1148,6 @@
 			)
 		)
 		(symbol "INA181A4_1_1"
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -1215,24 +1184,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 2.54 -7.62 90)
-				(length 6.35)
-				(name "REF"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
@@ -1251,7 +1202,62 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -7.62 90)
+				(length 6.35)
+				(name "REF"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA240"
 		(pin_names
@@ -1365,24 +1371,6 @@
 			)
 		)
 		(symbol "INA240_1_1"
-			(pin passive line
-				(at -2.54 -7.62 90)
-				(length 3.81) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -1420,24 +1408,6 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -1448,6 +1418,43 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1510,6 +1517,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA597IDR"
 		(exclude_from_sim no)
@@ -1619,24 +1627,6 @@
 		)
 		(symbol "INA597IDR_1_1"
 			(pin input line
-				(at 2.54 -7.62 90)
-				(length 5.08)
-				(name "REF"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "-IN"
@@ -1665,6 +1655,43 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -5.08 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "+Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1708,6 +1735,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 2.54 -7.62 90)
+				(length 5.08)
+				(name "REF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 10.16 0 180)
 				(length 2.54)
@@ -1726,43 +1771,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 7.62 270)
-				(length 2.54)
-				(name "+Vs"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -5.08 0 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LMV321A"
 		(pin_names
@@ -1876,24 +1886,6 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -1911,19 +1903,17 @@
 					)
 				)
 			)
-		)
-		(symbol "LMV321A_1_1"
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1931,6 +1921,8 @@
 					)
 				)
 			)
+		)
+		(symbol "LMV321A_1_1"
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -1967,7 +1959,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LMV324A"
 		(pin_names
@@ -2087,17 +2098,17 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2123,17 +2134,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2241,24 +2252,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 2.54)
@@ -2270,6 +2263,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2348,24 +2359,6 @@
 		)
 		(symbol "LMV324A_5_1"
 			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -2383,7 +2376,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LMV358A"
 		(pin_names
@@ -2503,17 +2515,17 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2539,17 +2551,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2628,24 +2640,6 @@
 		)
 		(symbol "LMV358A_3_1"
 			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -2663,7 +2657,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LP324"
 		(pin_names
@@ -2783,17 +2796,17 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2819,17 +2832,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2937,24 +2950,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 2.54)
@@ -2966,6 +2961,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3044,24 +3057,6 @@
 		)
 		(symbol "LP324_5_1"
 			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -3079,7 +3074,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LT6015"
 		(exclude_from_sim no)
@@ -3169,24 +3183,6 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -3204,19 +3200,37 @@
 					)
 				)
 			)
-		)
-		(symbol "LT6015_1_1"
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "~"
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LT6015_1_1"
+			(pin input line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3242,17 +3256,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 2.54 0)
+			(pin output line
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "-"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3261,6 +3275,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LT6017"
 		(pin_names
@@ -3380,17 +3395,17 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3416,17 +3431,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3446,6 +3461,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input line
@@ -3484,24 +3517,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "LT6017_3_1"
 			(polyline
@@ -3516,17 +3531,17 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3552,17 +3567,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3641,7 +3656,7 @@
 		)
 		(symbol "LT6017_5_0"
 			(pin no_connect line
-				(at 6.35 -2.54 180)
+				(at -6.35 2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -3650,7 +3665,115 @@
 						)
 					)
 				)
-				(number "15"
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3677,42 +3800,6 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 0 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
 				(at 6.35 2.54 180)
 				(length 2.54)
 				(name ""
@@ -3730,26 +3817,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
-				(at -6.35 2.54 0)
+				(at 6.35 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -3758,25 +3827,7 @@
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3785,7 +3836,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -6.35 0 0)
+				(at 6.35 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -3794,43 +3845,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 7.62 270)
-				(length 2.54)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -6.35 -2.54 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3852,5 +3867,569 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "OPA2186DR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OPA2186DR"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "OPA2186DR:SOIC127P599X175-8N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "- Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/OPA2186DR/Texas+Instruments/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OPA2186DR/Texas+Instruments/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "OPA2186DR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Dual, 24-V, 90-μA 5-μV-offset zero-drift operational amplifier with rail-to-rail input and output"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "OPA2186DR_1_0"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy -2.54 -3.81)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.905) (xy -3.81 -3.175)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "-INA"
+				(at -9.525 0.635 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "+INA"
+				(at -9.525 -4.445 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "V+"
+				(at 1.905 3.81 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "V-"
+				(at 1.905 -6.35 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "OUTA"
+				(at 5.715 -1.905 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OPA2186DR_2_0"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy -2.54 -3.81)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.905) (xy -3.81 -3.175)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "-INB"
+				(at -9.525 0.635 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "+INB"
+				(at -9.525 -4.445 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "OUTB"
+				(at 5.715 -1.905 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 )

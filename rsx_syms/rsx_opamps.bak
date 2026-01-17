@@ -1531,7 +1531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rsx_opamps:SOIC_597IDT_TEX"
 			(at 22.86 -6.35 0)
 			(effects
 				(font
