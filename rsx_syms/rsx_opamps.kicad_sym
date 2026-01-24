@@ -3894,7 +3894,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OPA2186DR:SOIC127P599X175-8N"
+		(property "Footprint" "rsx_opamps:SOIC127P599X175-8N"
 			(at 0 0 0)
 			(effects
 				(font
