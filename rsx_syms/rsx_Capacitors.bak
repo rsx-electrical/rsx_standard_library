@@ -709,7 +709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -718,12 +718,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "DPN" "399-C0603C104K5RACTUCT-ND"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "C0603C104K5RACTU"

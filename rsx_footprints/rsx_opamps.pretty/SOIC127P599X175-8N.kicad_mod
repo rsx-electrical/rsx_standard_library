@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(tags "OPA2186DR")
 	(property "Reference" "REF**"
 		(at 1.175 -3.635 0)
 		(layer "F.SilkS")

@@ -5520,7 +5520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0805N_PAN"
+		(property "Footprint" "rsx_resistors:RC0805N_PAN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5530,7 +5530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-6AEB304V"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5540,7 +5540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 300K OHM 0.1% 1/8W 0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5549,12 +5549,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "DPN" "P300KDACT-ND"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-6AEB304V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "ERA-6AEB304V"
