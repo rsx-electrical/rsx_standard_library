@@ -1,0 +1,204 @@
+(footprint "SIP-6_TBA_2-1222"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, TRACO, TBA2-xxxx, Dual, 2W, Rev. October 18. 2023, https://www.tracopower.com/products/tba2.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
+	(tags "DCDC-Converter TRACO TBA2 THT SIP-7 2W")
+	(property "Reference" "REF**"
+		(at -2.45 -3.35 0)
+		(layer "F.SilkS")
+		(uuid "6a793c84-b876-4572-9014-533d61ffe8ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SIP-7 _TBA_2-1222"
+		(at -2.45 18.1 0)
+		(layer "F.Fab")
+		(uuid "7f64483a-5629-4be2-8058-662355758726")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ddfb128-8304-410d-864e-88cf43f71c63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6732419a-f384-44c0-9e72-d7324187bf6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.36 -2.51)
+		(end 1.46 -2.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "032fbb7b-f389-4500-842d-72824637baa6")
+	)
+	(fp_line
+		(start -6.36 -0.296)
+		(end -6.36 -2.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d172220-510c-4f92-a81b-41afdf8e5d18")
+	)
+	(fp_line
+		(start -6.36 17.26)
+		(end -6.36 0.296)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64d7190a-ba23-4428-bdcf-0e26730dd287")
+	)
+	(fp_line
+		(start 1.46 -2.51)
+		(end 1.46 17.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8b36ca3-c108-4dc2-999a-704299b4aea8")
+	)
+	(fp_line
+		(start 1.46 17.26)
+		(end -6.36 17.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f8ef215-32c7-40cb-aade-7d77dcdd8a26")
+	)
+	(fp_poly
+		(pts
+			(xy -6.36 0) (xy -6.83 0.34) (xy -6.83 -0.34)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bacc47cb-b8a2-478b-8da2-ff43e2797253")
+	)
+	(fp_rect
+		(start -6.5 -2.65)
+		(end 1.6 17.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "967652b9-7671-40fe-8973-7ea710908fa3")
+	)
+	(fp_poly
+		(pts
+			(xy -6.25 -1.4) (xy -6.25 17.15) (xy 1.35 17.15) (xy 1.35 -2.4) (xy -5.25 -2.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "08ec63da-39f6-4332-abf3-6eae3670bb56")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.45 7.37 0)
+		(layer "F.Fab")
+		(uuid "cb51fdad-2a1f-4fd4-88af-09dc445356fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.166667)
+		(uuid "a4285627-cdb8-400a-bc14-b4f01e0a88e9")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c9408e4-102c-4bbf-8dbe-bca15637ce47")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "452cf3be-2517-4c86-bc55-88e1bb0e6ce3")
+	)
+	(pad "5" thru_hole circle
+		(at 0 10.16)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26f80d7e-bee2-4d8c-ba18-efd0bbabd1a2")
+	)
+	(pad "6" thru_hole circle
+		(at 0 12.7)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "01a1544a-1833-4575-ab17-06fbff461177")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

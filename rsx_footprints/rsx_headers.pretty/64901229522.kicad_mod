@@ -1,7 +1,7 @@
 (footprint "64901229522"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 17.895 -5.785 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8b86bed-4a22-4dca-bdc0-6da3a69b81c3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -139,7 +127,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5daeb105-491b-43e7-9d06-8501391ed8e9")
 	)
@@ -151,7 +139,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.CrtYd")
 		(uuid "aafd9588-7207-4d0e-950c-aef7068f7b1f")
 	)
@@ -262,5 +250,17 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "c744b514-c378-4e2a-b171-91a587304f3b")
+	)
+	(embedded_fonts no)
+	(model "${RSX_3D_LIB}/rsx_headers.3dshapes/64901229522.stp"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )
