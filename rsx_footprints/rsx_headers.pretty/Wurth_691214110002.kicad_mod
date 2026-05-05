@@ -332,4 +332,15 @@
 		(uuid "95f9a138-6585-4342-bc25-fef79a961875")
 	)
 	(embedded_fonts no)
+	(model "${RSX_3D_LIB}/rsx_headers.3dshapes/Wurth_691214110002.stp"
+		(offset
+			(xyz 0 0.5 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
