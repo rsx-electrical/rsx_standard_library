@@ -737,6 +737,183 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "5.6V_300mW"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.6V_300mW"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_diodes:D_SOD-323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE ZENER 5.6V 300MW SOD323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "onsemi"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "MM3Z6V2T1GOSCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MM3Z6V2T1G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "5.6V_300mW_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "5.6V_300mW_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "6.2V_300mW"
 		(pin_numbers
 			(hide yes)
@@ -2537,7 +2714,7 @@
 			)
 		)
 		(property "Footprint" "rsx_diodes:TO277B_LTF-M"
-			(at 0 0 0)
+			(at 0.254 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2723,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_power_semiconductor_schottky_rectifier_dst10100s_datasheet.pdf?assetguid=ee661edf-ad43-44df-b985-159e155b6bf1"
-			(at 0 0 0)
+			(at 0.254 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2732,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 100V 10A TO277B"
-			(at 0 0 0)
+			(at 0.254 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2741,7 @@
 			)
 		)
 		(property "MFR" "Littelfuse Inc."
-			(at 0 0 0)
+			(at 0.254 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2759,7 @@
 			)
 		)
 		(property "DPN" "F7418CT-ND"
-			(at 0 0 0)
+			(at 0.254 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2820,7 @@
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
-				(name "K"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2661,7 +2838,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2679,7 +2856,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
