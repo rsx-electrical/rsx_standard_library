@@ -1,4 +1,4 @@
-(footprint "CONN_PH1-07-UA_ADM"
+(footprint "CONN_1x7-PH-UA_ADM"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CONN_PH1-07-UA_ADM"
+	(property "Value" "CONN_1x7-PH-UA_ADM"
 		(at 7.62 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
