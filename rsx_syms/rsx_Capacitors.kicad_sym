@@ -689,7 +689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_capacitors:CAPC17595_95N_KEM"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3391,793 +3391,8 @@
 		)
 		(embedded_fonts no)
 	)
-<<<<<<< Updated upstream
-	(symbol "RDE5C2A220J0M1H03A"
-		(pin_names
-			(offset 1.016)
-=======
-	(symbol "4u7_Polarized"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0.254)
->>>>>>> Stashed changes
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-<<<<<<< Updated upstream
-		(property "Reference" "C103"
-			(at 1.27 6.35 0)
-=======
-		(property "Reference" "C"
-			(at 2.794 1.778 0)
->>>>>>> Stashed changes
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-<<<<<<< Updated upstream
-			)
-		)
-		(property "Value" "RDE5C2A220J0M1H03A"
-			(at 1.27 3.81 0)
-=======
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 2.794 -0.762 0)
->>>>>>> Stashed changes
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-<<<<<<< Updated upstream
-			)
-		)
-		(property "Footprint" "rsx_capacitors:CAP_RDE5C2A220J0M1H03A"
-			(at 0 0 0)
-=======
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_capacitors:CP_Elec_8x10.5"
-			(at 0.9652 -3.81 0)
->>>>>>> Stashed changes
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-<<<<<<< Updated upstream
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorLead/RDE_C0G_50V-100V_E_PDF_CERAMICCAPACITORLEAD?lastModifiedDatetime=20250909130222"
-=======
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uux.pdf"
->>>>>>> Stashed changes
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-<<<<<<< Updated upstream
-		(property "Description" ""
-=======
-		(property "Description" "4.7 µF 100 V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105°C"
->>>>>>> Stashed changes
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-<<<<<<< Updated upstream
-		(property "PARTREV" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.0mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-9084-1-ND"
-=======
-		(property "DPN" "493-6282-1-ND"
->>>>>>> Stashed changes
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-<<<<<<< Updated upstream
-		(property "MPN" "CAP CER 22PF 100V C0G/NP0 RADIAL"
-=======
-		(property "MPN" "UUX2A4R7MCL1GS"
->>>>>>> Stashed changes
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-<<<<<<< Updated upstream
-		(symbol "RDE5C2A220J0M1H03A_0_0"
-			(rectangle
-				(start 0 1.905)
-				(end 0.635 -1.9069)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.9069 -1.9069)
-				(end 2.54 1.905)
-				(stroke
-					(width 0.1)
-=======
-		(property "MFR" "Nichicon"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "CP_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "4u7_Polarized_0_1"
-			(rectangle
-				(start -2.286 0.508)
-				(end 2.286 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.778 2.286) (xy -0.762 2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 2.794) (xy -1.27 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 2.286 -0.508)
-				(end -2.286 -1.016)
-				(stroke
-					(width 0)
->>>>>>> Stashed changes
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-<<<<<<< Updated upstream
-			(pin passive line
-				(at -2.54 0 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-=======
-		)
-		(symbol "4u7_Polarized_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
->>>>>>> Stashed changes
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-<<<<<<< Updated upstream
-							(size 1.016 1.016)
-=======
-							(size 1.27 1.27)
->>>>>>> Stashed changes
-						)
-					)
-				)
-			)
-			(pin passive line
-<<<<<<< Updated upstream
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-=======
-				(at 0 -3.81 90)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
->>>>>>> Stashed changes
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-<<<<<<< Updated upstream
-							(size 1.016 1.016)
-=======
-							(size 1.27 1.27)
->>>>>>> Stashed changes
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "0u1_0402"
-		(extends "0u1")
-		(property "Reference" "C"
-			(at 0.635 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 0.635 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 0.9652 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1043-1-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05A104KA5NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "1u_0603"
-		(extends "0u1")
-		(property "Reference" "C"
-			(at 0.635 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 0.635 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
-			(at 0.9652 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KA8NNNC_Spec.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0603"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1102-1-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A105KA8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "33u"
-		(extends "4u7_Polarized")
-		(property "Reference" "C"
-			(at 2.794 1.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33u"
-			(at 2.794 -0.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_capacitors:CP_Elec_8x10.5"
-			(at 0.9652 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865090549007.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP ALUM 33UF 20% 35V SMD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "732-8408-1-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "865090549007"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Würth Elektronik"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "CP_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "220n"
-		(extends "1u_0603")
-		(property "Reference" "C"
-			(at 0.635 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220n"
-			(at 0.635 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 0.9652 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71E224KA55-01.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.22UF 25V X7R 0603"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-4935-1-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM188R71E224KA55D"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "27p"
-		(extends "1u_0603")
-		(property "Reference" "C"
-			(at 0.635 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27p"
-			(at 0.635 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 0.9652 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.johansondielectrics.com/search/pdf/?s=%22QSCP251Q270G1GV001T%22"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "27 pF ±2% 250V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Johanson Technology Inc."
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "712-QSCP251Q270G1GV001TCT-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "QSCP251Q270G1GV001T"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol "2u2_0603"
-		(extends "1u_0603")
+		(extends "2u2_0805")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
 			(effects
@@ -4196,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -4269,8 +3484,8 @@
 			)
 		)
 	)
-	(symbol "33p"
-		(extends "1u_0603")
+	(symbol "27p_0603"
+		(extends "2u2_0603")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
 			(effects
@@ -4280,7 +3495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33p"
+		(property "Value" "27p"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -4289,7 +3504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -4298,7 +3513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H330JA01-01.pdf"
+		(property "Datasheet" "https://www.johansondielectrics.com/search/pdf/?s=%22QSCP251Q270G1GV001T%22"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4307,7 +3522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "27 pF ±2% 250V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4316,7 +3531,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Johanson Technology Inc."
 			(at 0 0 0)
 			(effects
 				(font
@@ -4325,7 +3540,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-1415-1-ND"
+		(property "DPN" "712-QSCP251Q270G1GV001TCT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4334,7 +3549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H330JA01D"
+		(property "MPN" "QSCP251Q270G1GV001T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4362,8 +3577,8 @@
 			)
 		)
 	)
-	(symbol "390p"
-		(extends "1u_0603")
+	(symbol "390p_0603"
+		(extends "2u2_0603")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
 			(effects
@@ -4382,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -4455,10 +3670,10 @@
 			)
 		)
 	)
-	(symbol "47u"
-		(extends "33u")
+	(symbol "33p_0608"
+		(extends "390p_0603")
 		(property "Reference" "C"
-			(at 2.794 1.778 0)
+			(at 0.635 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,8 +3681,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
-			(at 2.794 -0.762 0)
+		(property "Value" "33p"
+			(at 0.635 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +3690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rsx_capacitors:CP_Elec_8x10.5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -4484,7 +3699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865090549009.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H330JA01-01.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4493,7 +3708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47 µF 35 V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 85°C"
+		(property "Description" "33 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4502,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "732-8410-1-ND"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4511,7 +3726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "865090549009"
+		(property "DPN" "490-1415-1-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4520,7 +3735,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Würth Elektronik"
+		(property "MPN" "GRM1885C1H330JA01D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4538,7 +3753,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CP_*"
+		(property "ki_fp_filters" "C_*"
 			(at 0 0 0)
 			(effects
 				(font
