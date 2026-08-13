@@ -5616,7 +5616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 30V 16A PPAK1212-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5625,12 +5625,31 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "MFR" "Vishay Siliconix"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SISA96DN-T1-GE3CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SISA96DN-T1-GE3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SISA96DN-T1-GE3"
