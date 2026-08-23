@@ -4983,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MP2793DFP-0002-T"
+		(property "Footprint" "rsx_misc:MP2793DFP-0002-T"
 			(at 29.21 6.096 0)
 			(effects
 				(font
@@ -4998,6 +4998,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "4-Cell to 16-Cell, High-Accuracy Battery Monitor and Protector with Coulomb Counting"
@@ -5961,6 +5962,7 @@
 		(on_board yes)
 		(property "Reference" "U"
 			(at 20.32 10.16 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5969,6 +5971,7 @@
 		)
 		(property "Value" "MPF42792DRT-0B-0000-P"
 			(at 20.32 7.62 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.524 1.524)
