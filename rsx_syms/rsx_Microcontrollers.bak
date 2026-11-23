@@ -13260,7 +13260,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+		(property "Footprint" "rsx_DIP:DIP-28_W7.62mm"
 			(at 0 0 0)
 			(effects
 				(font
