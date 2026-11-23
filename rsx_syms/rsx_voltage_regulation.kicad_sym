@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp1117-d.pdf"
 			(at 2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
