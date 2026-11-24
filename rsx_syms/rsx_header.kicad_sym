@@ -766,8 +766,6 @@
 					)
 				)
 			)
-<<<<<<< Updated upstream
-=======
 		)
 		(embedded_fonts no)
 	)
@@ -802,7 +800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "929647-01-03-EU:3M_929647-01-03-EU"
+		(property "Footprint" "rsx_headers:3M_929647-01-03-EU"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1031,7 +1029,6 @@
 					)
 				)
 			)
->>>>>>> Stashed changes
 		)
 		(embedded_fonts no)
 	)
@@ -27151,8 +27148,6 @@
 					)
 				)
 			)
-<<<<<<< Updated upstream
-=======
 		)
 		(embedded_fonts no)
 	)
@@ -29044,7 +29039,6 @@
 					)
 				)
 			)
->>>>>>> Stashed changes
 		)
 		(embedded_fonts no)
 	)
