@@ -2138,7 +2138,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MC7805BDTRKG:DPAK229P990X238-4N"
+		(property "Footprint" "rsx_packages_TO_SOT:DPAK229P990X238-4N"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

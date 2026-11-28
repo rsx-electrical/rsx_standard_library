@@ -1,0 +1,245 @@
+(footprint "01530007Z"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "F1"
+		(at 0 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "6ed89ff7-f790-44a7-9c11-311b5529fbd0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse"
+		(at 0 -7.5 0)
+		(layer "F.Fab")
+		(uuid "260779ce-fa4f-4824-aba4-66595335eab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "909b3719-c2d6-4526-a324-f0d0b8cdced4")
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a0ad5bc-1c86-4474-be6a-e761655be5c3")
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+	)
+	(property "DPN" "36-3568-10-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8457bcaf-9734-4861-a10a-702b10a21cdd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*Fuse*")
+	(sheetname "/")
+	(sheetfile "DC Bus PCB.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.636 -8.3312)
+		(end -8.636 4.572)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d3f66b8-76fa-4f62-8f01-f94c65755507")
+	)
+	(fp_line
+		(start -8.636 4.572)
+		(end 8.636 4.572)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6133d7b8-8d7c-461e-8820-cf57702c66d2")
+	)
+	(fp_line
+		(start -5.1 -8.3312)
+		(end -8.636 -8.3312)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b8a9ad3-f539-4b8b-8c9e-f07e0f2716b3")
+	)
+	(fp_line
+		(start 2.53 -8.3312)
+		(end -2.53 -8.3312)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e002857-00d5-4923-b2ad-074d1ab8fca7")
+	)
+	(fp_line
+		(start 8.636 -8.3312)
+		(end 5.1 -8.3312)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f914433-2dcc-458e-b6ca-84ad378afeb5")
+	)
+	(fp_line
+		(start 8.636 4.572)
+		(end 8.636 -8.3312)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aae9ac45-577a-4a23-b444-a8c469e8a99e")
+	)
+	(fp_line
+		(start -8.886 -8.8312)
+		(end 8.886 -8.8312)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6dba77ed-e3e0-44f9-8abf-293bfcf2a238")
+	)
+	(fp_line
+		(start -8.886 10.541)
+		(end -8.886 -8.8312)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a61bb298-ca5d-4224-a3f4-cb150c55e462")
+	)
+	(fp_line
+		(start 8.886 -8.8312)
+		(end 8.886 10.541)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0072a6db-18fd-4982-ac35-4afb9c4941be")
+	)
+	(fp_line
+		(start 8.886 10.541)
+		(end -8.886 10.541)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c49698d9-3236-4026-bf34-81bdee723016")
+	)
+	(fp_line
+		(start -8.636 -8.3312)
+		(end 8.636 -8.3312)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20e477fc-f951-4dc8-9203-94b32d4c56b3")
+	)
+	(fp_line
+		(start -8.636 4.572)
+		(end -8.636 -8.3312)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac5d8db9-0317-4225-b085-4cc79ca7bb38")
+	)
+	(fp_line
+		(start 8.636 -8.3312)
+		(end 8.636 4.572)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c7f97fa-495e-4e1a-b575-25093a3fb96e")
+	)
+	(fp_line
+		(start 8.636 4.572)
+		(end -8.636 4.572)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cba0bf24-fa91-4a0b-915a-e3d384365b2f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.0828 2.0828)
+		(drill 2.0828)
+		(layers "*.Cu" "*.Mask")
+		(uuid "223abfaf-94cf-44a1-b51e-0d3ab379779c")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -7.62)
+		(size 1.905 1.905)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fc9b3103-abd9-4f42-b4d3-f18359aae1bf")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 -7.62)
+		(size 1.905 1.905)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cfebba6f-5567-48fe-9594-e38aa047d2d1")
+	)
+	(embedded_fonts no)
+	(model "${RSX_3D_LIB}/rsx_fuses.3dshapes/OL-01530007Z.step"
+		(offset
+			(xyz 0 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
